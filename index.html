@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FAB DAIRY|SYED JUNAID AHMED</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FabAcademy 2017 - SYED JUNAID AHMED" />
+    <meta name="keywords" content="FabAcademy, FabLab, Final Project, 2017,fablabkerala" />
+    <meta name="author" content="SYED JUNAID AHMED" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <link rel="stylesheet" type='text/css' href="css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <!-- Bootstrap Core CSS -->
+        <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Theme CSS -->
+        <link href="css/creative.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/w3.css">
+        <style type="text/css">
+
+    body {
+            background-color: #ce3635;
+            text-align: center;
+            color: #fff;
+            padding-top: 0em;
+            font-size: 40;
+        }
+
+        * {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    footer{
+      clear:both;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .footer-distributed{
+      background-color: #292c2f;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font: normal 16px sans-serif;
+
+      padding: 0px 0px;
+      margin-top: 0px;
+    }
+
+    .footer-distributed .footer-left p{
+      color:  #8f9296;
+      font-size: 14px;
+      margin: 0;
+    }
+
+    /* Footer links */
+
+    .footer-distributed p.footer-links{
+      font-size:18px;
+      font-weight: bold;
+      color:  #ffffff;
+      margin: 0 0 10px;
+      padding: 0;
+    }
+
+    .footer-distributed p.footer-links a{
+      display:inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color:  inherit;
+    }
+
+    .footer-distributed .footer-right{
+      float: right;
+      margin-top: 6px;
+      max-width: 180px;
+    }
+
+    .footer-distributed .footer-right a{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background-color:  #33383b;
+      border-radius: 2px;
+
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+
+      margin-left: 3px;
+    }
+
+
+        </style>
+        <style>
+        p.indent {
+            padding-left: 1.8em
+        }
+        </style>
+        <script>
+        <!--script for the typing style-->
+        var TxtType = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function() {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+        </script>
+</head>
+
+<body >
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">SYED JUNAID AHMED</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="assignments.html">Weekly Assignments</a>
+                    </li>
+                    
+                    <li>
+                        <a href="project.html">Final Project</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="contact.html">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <p class="indent"></p>
+    <p class="indent"></p>
+    <p class="indent"></p>
+    <div style="position:relative; float:right; padding:14px">
+        <img src="img/fabac.jpg" width="300">
+        <font size=22 color=#959595>
+    </div>
+    <div style="position:relative; float:left; padding:14px">
+        <font size=6 color=black>
+            <b>
+        FABLAB </b>
+        </font>
+        <font size=6 color=#959595>
+            <b>
+        KERALA</b>
+        </font>
+
+    </div>
+
+    <header>
+        <div class="header-content">
+            <H1 style="padding: 25px; font-size: 40px; font-weight: 600" class="typewrite" data-period="2000" data-type='[ "Hi, Im SYED AKA scitechindian", "I am Creative.", "I Love Designing.", "I Love Prototyping.","I Love to Develop.","I Love FabAcademy" ]'>
+    <span class="wrap"></span>
+  </H1>
+            <div class="header-content-inner">
+                <h1 id="homeHeading">To make <b>(almost)</b>anything</h1>
+                <hr>
+                <p>This website will show the documentations and workflow of all the assigments that I undergo during Fab Academy Diploma (2017) course.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">About me</a>
+            </div>
+        </div>
+    </header>
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 ">
+                    <h2 class="section-heading">About Me ... </h2>
+                    <hr class="light">
+                    <p class="text-faded" style="text-align:justify">
+                        Hey ! I am SYED JUNAID AHMED. I'm from Andhra Pradesh, which is one of the largest coastal region in India. I competed my graduation in Mechanical Engineering in VSM COLLEGE OF ENGINEERING and  have also worked as Research Assistant there for a period of one year . During which, I taught students about how to think and develop their project ideas. I introduced them to the DIY(Do IT YourSelf) culture  by teaching them Arduino.
+                    </p>
+                    <p class="text-faded" style="text-align:justify">
+                        I love to travel for conferences and participate in the Hack-a-thons and Build-a-thons. I have participated in MIT-LVPEI Health workshop in Hyderabad and Recently particpated in S.T.E.A.M School in collaboration with MakersAsylum and the French Embassy of India. And my last tour was the memorable Fab Conference is FAN3(Fablab Asia Network) which was a Week Long taking place at three places (Mumbai-Pune-Kochi) . want to know more <a href="about.html" class="w3-btn w3-purple w3-round-large">Click Here</a>
+                    </p>
+                    <h2 class="section-heading">Why i am Here ? </h2>
+                    <p class="text-faded" style="text-align:justify">
+                        I am very interested to make things ,so I have started a maker-space in my home town named Maker's Hive, which I want to scale up. For that purpose i am here. I also have plans to join the proposed Fablab at Vizag Aka Vishakapatnam once it starts ,learning everything perfectly, and working around the clock to graduate !
+                    </p>
+                </div></div></div>
+
+<div id="footer">
+
+     <footer class="footer-distributed">
+
+
+
+                    <div class="footer-right">
+
+                    <a href="https://www.facebook.com/scitechindian"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/scitechindian"><i class="fa fa-twitter"></i></a>
+                    <a href="https://in.linkedin.com/in/scitechindian"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/scitechindian"><i class="fa fa-github"></i></a>
+
+                    </div>
+
+
+                    <div class="footer-left">
+
+                    <p class="footer-links">
+                    <a href="index.html">Home</a>
+                    ·
+                    <a href="assignments.html">Weekly Assignments</a>
+                    ·
+                    <a href="project.html">Final Project</a>
+                    ·
+                    <a href="about.html">About me</a>
+                    .<a href="http://www.fablabkerala.in"> Fablab Kerala</a>
+                    .<a href="http://archive.fabacademy.org/archives/2017/fablabtrivandrum/">Fab Academy
+                    </a>
+                    </p>
+                    <p>My Fab Diary, 2017</p>
+                    </div>
+                  
+      </footer>
+        </div>
+        <div class="container">
+                   <p> &copy; 2017, made with <i class="fa fa-heart heart"></i> by scitechindian </p>
+                    </div>
+         
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
+        <p><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This work done</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://archive.fabacademy.org/archives/2017/fablabtrivandrum/students/213" property="cc:attributionName" rel="cc:attributionURL">SYED JUNAID AHMED</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+
+                          <!-- jQuery -->
+                          <script src="js/jquery/jquery.min.js"></script>
+                          <!-- Bootstrap Core JavaScript -->
+                          <script src="js/bootstrap/js/bootstrap.min.js"></script>
+                          <!-- Plugin JavaScript -->
+                          <script src="js/jquery/jquery-easing.min.js"></script>
+                          <!-- Theme JavaScript -->
+                          <script src="js/creative.min.js"></script>
+        </body>
+
+        </html>

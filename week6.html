@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>FAB DAIRY|SYED JUNAID AHMED</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FabAcademy 2017 - SYED JUNAID AHMED" />
+    <meta name="keywords" content="FabAcademy, FabLab, Final Project, 2017,fablabkerala" />
+    <meta name="author" content="SYED JUNAID AHMED" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <!--  <body style="font-family: 'Roboto', sans-serif; font-size:18px"> -->
+        <!-- Bootstrap Core CSS -->
+        <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Theme CSS -->
+        <link href="css/creative.min.css" rel="stylesheet">
+          <link rel="stylesheet" href="css/w3.css">
+        <style type="text/css">
+        footer{
+          clear:both;
+          padding: 10px;
+          text-align: center;
+        }
+
+        .footer-distributed{
+          background-color: #292c2f;
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-sizing: border-box;
+          width: 100%;
+          text-align: left;
+          font: normal 16px sans-serif;
+
+          padding: 0px 0px;
+          margin-top: 0px;
+        }
+
+        .footer-distributed .footer-left p{
+          color:  #8f9296;
+          font-size: 14px;
+          margin: 0;
+        }
+
+        /* Footer links */
+
+        .footer-distributed p.footer-links{
+          font-size:18px;
+          font-weight: bold;
+          color:  #ffffff;
+          margin: 0 0 10px;
+          padding: 0;
+        }
+
+        .footer-distributed p.footer-links a{
+          display:inline-block;
+          line-height: 1.8;
+          text-decoration: none;
+          color:  inherit;
+        }
+
+        .footer-distributed .footer-right{
+          float: right;
+          margin-top: 6px;
+          max-width: 180px;
+        }
+
+        .footer-distributed .footer-right a{
+          display: inline-block;
+          width: 35px;
+          height: 35px;
+          background-color:  #33383b;
+          border-radius: 2px;
+
+          font-size: 20px;
+          color: #ffffff;
+          text-align: center;
+          line-height: 35px;
+
+          margin-left: 3px;
+        }
+
+
+            </style>
+</head>
+
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Week 6</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a href="week5.html">Past Week</a>
+                  </li>
+                    <li>
+                        <a href="index.html">Back to Home</a>
+                    </li>
+                    <li>
+                        <a href="week7.html">Next Week</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <section class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Electronics Design</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+
+     <h2>Over View of Assignments</h2>
+       <p>
+         <div class="test">
+         <ul style="list-style-type:square">
+         <h3>Electronics Design</h3>
+
+    <li>Redraw the echo hello-world board, add (at least) a button and LED (with current-limiting resistor), check the design rules, and make it</li>
+    <li>optional: simulate its operation. Measure its operation</li>
+
+      <h3>Learning outcomes</h3>
+    <li>Select and use software for circuit board design</li>
+      <li>Demonstrate workflows used in circuit board design</li>
+
+    <li> How you worked with design rules for milling (DRC in EagleCad and KiCad)</li>
+
+    <li>Explain any problems and how you fixed them</li>
+       </ul>
+       </div>
+       </p>
+
+</div>
+    <!-- side nav bar -->
+    <nav class="col-sm-3">
+	<ul class="nav nav-pills nav-stacked">
+		<li class="active">
+			<a data-toggle="pill" href="#b1">PCB Designing</a>
+		</li>
+		<li>
+			<a data-toggle="pill" href="#b2">Work Flow of Hello Echo !</a>
+		</li>
+    <li>
+			<a data-toggle="pill" href="#b3">Other PCB CAD Softwares</a>
+		</li>
+		<li>
+			<a data-toggle="pill" href="#b4">Fab Modules</a>
+		</li>
+    <li>
+			<a data-toggle="pill" href="#b5">Components and Soldering</a>
+		</li>
+    <li>
+			<a data-toggle="pill" href="#b6">Programming and simulation</a>
+		</li>
+    <li>
+     <a data-toggle="pill" href="#b7">Hero Shot</a>
+   </li>
+	</ul>
+</nav>
+<!-- Content data -->
+
+<div class="col-sm-9">
+	<div class="tab-content">
+		<div id="b1" class="tab-pane fade in active">
+			<h2>What is PCB Designing ?</h2>
+			<p>
+        <h3></h3>
+        <p align=justify>The physical design of printed circuit boards has far reaching product implications. It impacts cost, time to market, profits, performance, test, size, reliability, rework and overall manufacturability. Of all the steps involved in the product development process, physical design has the most impact.
+
+This is why, when first approaching a design, we consider the entire process, not just the next step. Engineering, manufacturing process, function and use must all be understood. Only then can a design be optimized for the specific needs of the product.Thus the Printed Circuit board designing comes into the senario.</p>
+<center><img src="img/w6/jb.gif" width=350 border=1></center>
+<p style="text-align: center;">
+<i>Express PCB demo(source:google)</i>
+</p>
+  <h3>History of PCB Designing</h3>
+       <p align=justify>The first printed circuit boards (PCBs) can be traced all the back to the early 1900s and a patent for “printed wire.” It was in 1925 that Charles Ducas first submitted a patent that involved creating an electrical path directly on an insulated surface. It was a revolutionary idea because it could eliminate complex wiring and provide consistent results. Still, they didn’t really catch on until after WWII, when Dr. Paul Eisler in Austria began making the first real operational printed circuit boards in 1943.</p>
+<p align=justify>Before printed circuits became the common component used in electronics, point to point construction was used. This meant some extremely bulky and unreliable designs that required large sockets and regular replacement. Most of these issues were directly addressed when PCBs went into regular production.
+
+<li>1920s – The early PCB material could be almost anything, from Bakelite and Masonite to plain old thin pieces of wood. Holes could be drilled into the material and flat brass wires would be riveted onto it. It may not have been pretty, but the concept was there, and it worked. It was often used in radios and gramophones at the time.
+
+</li><li>1947 – First double sided PCB’s with plated through holes produced.
+
+</li><li>1950s – 60s – The types of materials used for the board was shifting to different resins and other materials, but they could still only be printed on a single side. The wiring would be printed on one side and the electrical components would be on the other. Still, it was a much more efficient option than bulky wiring, so it was starting to see a wider adoption.
+One of the biggest steps forward came in 1956 when the U.S. Patent Office granted a patent to a small group of scientists representing the U.S. Army for the “Process of Assembling Electrical Circuits.” At the time, the process involved drawing the wiring pattern and then photographing it onto a zinc plate. This plate could then be used to create a printing plate for an offset printing press. This is what was used to print the wire in acid resistant ink on the copper foil, which could then be etched by an acid solution.
+
+</li><li>1957 – IPC (The Institute of Printed Circuits) formed and hold first meeting in Chicago IL.
+
+</li><li>1960 – Multilayer (4+ layer count) PCB’s begin production.
+
+</li><li>1960s -70’s – Boards were designed using 4:1, red-and-blue line vellum method for hand-taping components and tracks. A precision camera then produced the 1:1 negative manufacturing film. An experienced designer could layout and tape a board at the rate of about two hours for each equivalent 14-pin IC on the board.
+
+</li><li> – The circuitry and overall size of the boards were starting to get a lot smaller by the 70s, and hot air soldering methods began to be used. This is also when the Japanese developers began to create screen processes that used various aqueous developed LPIs (liquid photo imageable masks). This became the industry standard over the years.
+Gerber Scientific introduces RS-274-D as a machine-based format for vector photoplotters.
+
+</li><li>1980s – Surface mount parts became the preferred option over through-hole components, which led to further size reductions while maintaining the same level of functionality.
+
+</li><li>1986 – RS-274X released as an enhancement to RS-274-D data format. New version supports embedded aperture information relieving the need for external aperture definition files.
+
+</li><li>1992 – Valor Computerized Systems founded introducing Genesis 2000 software for PCB CAM and DFM.
+
+</li><li>1990s– While the complexity of modern circuit boards continues to go up, the size of the boards and costs of materials has generally been able to go down. Once developers were able to start using multi-layer circuit boards they were able to minimize the size and incorporate combinations of rigid and flexible PCBs in a range of devices. Going forward, new developments will continue to produce more efficient circuits that can effectively meet the needs of rapidly growing technology.
+
+</li><li>1995 -US PCB production reaches $7.1 billion, topping $7 billion for first time.
+
+</li><li>1995 – Use of micro-via technology in PCB production starts, ushering in the era of HDI (High Density Interconnect) PCB’s.
+
+</li><li>1997 – Valor Computerized Systems releases ODB ++ printed circuit board manufacturing data format into public domain.
+
+</li><li>2000- US PCB fabrication market peaks at more than $10 billion.
+
+</li><li>2000s – PCB Real Estate becomes even tighter with 5-6mil trace & space becoming commonplace. Hi-tech shops fabricating boards with 3.5 to 4.5mil trace & space in production quantities. Flex and Rigid –Flex PCBs become an affordable option and widely used.
+
+</li><li>2010s – ELIC (Every Layer Interconnect) production begins.</li>
+<a href="http://www.pcb-solutions.com/pcb-market-monitor/the-history-of-pcb-infographic/" class="w3-btn w3-purple w3-round-large"> Read More</a></p>
+<h3></h3>
+<p align=justify>A PCB is used to connect electronic components electrically. This is done by making conductive path ways for circuit connections by etching tracks from copper sheet laminated onto a non-conductive substrate.</p>
+<p style="text-align: justify;">A PCB consists of a conducting layer that is made up of thin copper foil. The insulating layer di-electric is laminated together with epoxy resin prepreg. The most commonly used PCB type is the FR-4. Boards may be single sided or double sided. Double sided PCB can be used to connect electronic components on both sides through through-hole plating. This is done by copper plating the walls of each hole so as to connect the conductive layers of the PCB.</p>
+<p style="text-align: justify;"><strong>Advantages of PCB over Bread-board</strong></p>
+<ol style="text-align: justify;">
+<li>You can get a much higher density board with PCB.</li>
+<li>You will find the PCB design to be more reliable than the one made on a bread board. The circuit will look neat without any wires popped up and will not fall apart.</li>
+<li>You can have very precise control over the circuit component you are using, and you can comfortably fit in odd shaped components that are difficult to fix on a bread board.</li>
+<li>For production of large volume of circuit boards, the costs become less and the soldering can be done by fully automated machines.</li>
+</ol><a href="http://www.circuitstoday.com/pcb-manufacturing-process" class="w3-btn w3-purple w3-round-large"> Read More</a></p>
+<p>Let's go in deep into the Work Flow of Hello Echo
+			</p>
+		</div>
+		<div id="b2" class="tab-pane fade">
+			<h2>Work Flow of Hello Echo !</h2>
+      <h3>Neils Lecture summary !</h3>
+      <p align=justify>Our assignment for the week was to redaw the Hello Echo board and add an LED with a current limiting resistor and a Switch. Aditionally we have to mill and stuff the board and see if it is working. If not we should try debugging it make it work and use the electronics testing equipments we have in our lab. We could also try and simulate the board. As Neil said the objective is to get used to many design tools and become familiar with all the testing equipments in our lab. </p>
+<h3>Design of hello Echo Board</h3>
+      <center><img src="img/w6/hello.ftdi.44.png" width=350 border=1><img src="img/w6/me.jpg" width=350 border=1></center>
+      <p style="text-align: center;">
+      <i>Hello Echo Board for easy understanding to redraw my sketch(on Right) </i>
+      </p>
+      <h3> <strong>PCB Desing Tools</strong> </h3>
+      <p align="justify"> PCB design is usually done by converting our circuit’s schematic diagram into a PCB layout using PCB layout softwares.
+				There are many cool open source software packages for PCB layout creation and design both open source and licensed.In this week i am planning to familiarise with these softwares.</p>
+
+				<li><a href="http://www.autodesk.com/products/eagle/overview">Eagle</a></li>
+				<li><a href="http://kicad-pcb.org/">KiCad EDA</a></li>
+        <li><a href="http://www.123dapp.com/circuits">123D Circuits</a></li>
+				<li><a href="https://www.labcenter.com/">Proteus</a></li>
+        <li><a href="https://www.expresspcb.com">ExpressPCB</a></li>
+        <li><a href="https://www.tina.com">Tina Pro</a></li>
+        <li><a href="http://www.altium.com/">Altium</a></li>
+        <h3><strong>PCB design and layout process</strong></h3>
+
+<p align="justify"> The process of PCB design starts with schematic design of circuit, using any PCB Design softwares we can design the circuits. Each software will have a schematic design tool for this.
+	 We can draw our circuit schematic by pick and placing the components available in the library, interconnect it using wires. Once completed the schematic the next process is routing of pcb,
+	 the PCB software routes the physical connections on the board according to the netlist from the schematic.To achieve this it will use the number of layers that are available for connections,
+	 creating via holes as required, but in our case maximum double layers is only possible. Autorouting and manual routing provisions will be available in softwares, also we can check the design rules
+	 at different stages. After completing the routing we can use the output to make the pcb,noramally most softwares  the output will be in the form of Gerber files, It is an open ASCII vector format for 2D binary images.
+	 It is the standard used by printed circuit board (PCB) industry software to describe the printed circuit board images: copper layers, solder mask, legend, etc. Since we are using PCB Milling machine(modela MDX-20) the output required
+	 will be in the form of images(.png) the processing Software will be fabmodules web local version.</p>
+
+   <h3><strong>EAGLE (Easily Applicable Graphical Layout Editor)</strong></h3>
+      <p align=justify>EAGLE stands for Easily Applicable Graphical Layout Editor ,It is a electronic design automation application with schematic capture, PCB layout, auto-router and computer-aided manufacturing features. It widely used by many peoples like hobbiest,Makers but this not used widely in industry. I found this software easy to use and has a lot of good features.
+        it is developed by CadSoft Computer GmbH and now acquired by Autodesk Inc on 27 June 2016 from Premier Farnell Company(element14). Now They have Premium, Standard, free, and student & educator editions , but before it was standalone one time purchase.
+      </p>
+      <h3>Installing and Work Flow of Eagle</h3>
+      <p align=justify>There are different versions available in internet.I have downloaded the latest version of the Eagle from Autodesk Website and the installation process is very simple we have to extract the tar file which we downloaded in home location and we have to open the
+        that folder in the terminal and <code>$ ./eagle </code> Once we click that we will be getting a window open to put the details of the autodesk login and password .once it validated we will be able to use the latest eagle cad as we have registered with the fabacademy we got the premium version
+      <h4>Using the Eagle CAD</h4>
+      We will open the software first and now we have to load the fab library which can be found here  <a href="http://archive.fabacademy.org/archives/2017/doc/electronics/fab.lbr"class="w3-btn w3-purple w3-round-large">Link1</a><a href="res/fab.lbr"class="w3-btn w3-purple w3-round-large">Link2</a>once we download we have to save the lbr folder where eagle is installed
+      and then we can open the library file which looks like this
+      <center><img src="img/w6/lib.png" width=550 border=1></center>
+      <p style="text-align: center;">
+      <i>FAB library </i>
+      </p>
+      The Fab library is a collection of all the electronics inventories available in the fablab. You will be designing using these components hence you need to have them in your library. You can optionally create parts of your own by drawing custom foots prints.After adding the Fab library you can start drawing the schematic.
+       i have gone through some amazing tutorials of the eagle CAD on <a href="https://www.youtube.com/playlist?list=PL868B73617C6F6FAD"class="w3-btn w3-purple w3-round-large">youtube</a> and <a href="https://learn.sparkfun.com/tutorials/using-eagle-schematic"class="w3-btn w3-purple w3-round-large">Sparkfun learn</a>
+</p>
+<p align=justify>
+Now the workflow of the  Designing the PCB Using the EAGLE and using the fabmodules
+<li>Add the components from the Library to the Schematics</li>
+<li>Draw Schematic of desired circuit</li>
+<li>Arrange the components as per the Circuit</li>
+<li>Check for Design rules and ERC errors</li>
+<li> Then switch board mode and arrange the components and Route the board manually</li>
+<li>Give proper border and export as <b>PNG</b> file</li>
+<li>Use fab modules to mill out the traces on copper board.</li>
+<li>Solder components on the board with reference to the schematic</li>
+<li>Debugging using electronics test equipment</li></p>
+
+<p> Then i started to use the eagle and sucessfuly created the neils echo hello board
+<center><img src="img/w6/5.png" width=550 border=1>
+</center>
+<p>
+  <li>
+		Add the part by clicking the add part icon or by tying 'add' to the command line.
+	</li>
+	<li>Navigate to the Fab library in the new window and select the part you want. <b>Note:</b> Search function in Eagle is not good, Navigate manually.
+	</li>
+	<li>Add the component and place it on the sheet in the desired location, you can rotate the object by pressing right mouse button.
+	</li>
+	<li>Now select wither the <b>wire</b> tool or the <b>net</b> tool to draw connections between components. <b>Note:</b> When drawing with the line tool the connections may cross over each other, this is okay. They are not really connected. In order to connect two overlapping lines select the <b> Junction tool</b> to create a node between the intersecting lines
+	</li>
+<li>You can move the parts and place them in any orientation and draw connecting lines to join them electrically.</li>
+</p>
+<code>Warning ! if you use the wire tool please make sure all the connections are perfect as i had a issue while going to board view there connections where missing, so i have used the net tool later which shows a buble where it is touching</code>
+Then later i have switched to the board view started to place the components into the board view area
+<center><img src="img/w6/7.png" width=550 border=1></center><center>
+  <p>the components placed in the board view </p></center>
+<p align=justify>This process i a bit intresting stuff like the game if we cross the same line we are died ,as same we have to route the connections of the pcb borad which are being visible in yellow colour then they will be chaged to maroon colour, this abit tricky i have place the components in different oriantations later i got to understand i should try the auto rout method then asked for the filling of the DRC rule and then later i could be able to design the board discribed below</p>
+  <center><img src="img/w6/6.png" width=550 border=1></center>
+<center>  <p> Now for the Auto Route the board</p></center>
+<center><img src="img/w6/1.png" width=550 border=1></center>
+<p align=justify></p>
+<center>  <p>Filling the DRC Rules for the Milling </p>
+<img src="img/w6/2.png" width=550 border=1></center>
+<center> <p>Filling the DRC Rules for the Milling </p><img src="img/w6/3.png" width=550 border=1></center>
+<center> <p>Filling the DRC Rules for the Milling </p><img src="img/w6/4.png" width=550 border=1></center>
+<centre>Finally i was able to route the Neils Echo hello world board traced</center>
+</p>
+<p align=justify>
+  Now with experience of the designing/redrawing the neils echo hello world board ,as per the assignment i have added a LED and a switch to design , then i remember the issue with my andy board whether i was working or not i had no idea so i have planned to add another led across the Vcc and GND with the Current limiting Resistor. and i also for the proper utilisation of the available pins i have added to pads to add the header for those pins.
+    <center><img src="img/w6/fs.png" width=550 border=1><p>The final design for schematic designed using the Eagle CAD</p></center>
+
+<center><img src="img/w6/10.png" width=550 border=1><p>The final design for this week designed using the Eagle CAD</p></center>
+
+
+<p>
+  This the final design which was milled on the modela using the fabmodules locally installed
+<img src="img/w6/helloscitech.png" width=350 border=1>
+<img src="img/w6/helloscitechb.png" width=350 border=1>
+<p>These are 1000px original png images used to mill you can save these and mill your board</p>
+      </p>
+  <code> you can download the eagle CAD Design files <a href="res/fab_hello_CAD.tar.gz"class="w3-btn w3-purple w3-round-large">here</a>    </code>
+</div>
+<div id="b3" class="tab-pane fade">
+  <h2>Other PCB CAD Softwares</h2>
+<h3>Autodesk Circuits(circuits.io)</h3>
+<p align="justify">i was intrested to use this because our instructors yadu has used it i have followed the his design files and i have designed my board
+  here you can find the files hosted in the circuits.io the shematic design was easily sone but the routing is the difficult part.</p>
+  <img src="img/w6/ac1.png" width=550 border=1>
+  <iframe frameborder='0' height='448' marginheight='0' marginwidth='0' scrolling='no' src='https://circuits.io/circuits/4241325-echo-hello-world-board/embed#schematic' width='650'></iframe>
+<p>  There is no auto routing is  process in this software as i have just traced the designas the lines were connected</p>
+<img src="img/w6/ac2.png" width=550 border=1>
+  <iframe frameborder='0' height='448' marginheight='0' marginwidth='0' scrolling='no' src='https://circuits.io/circuits/4241325-echo-hello-world-board/embed#pcb' width='650'></iframe>
+</p>
+<p>you can download the gerber files <a href="res/autocirc.zip"class="w3-btn w3-purple w3-round-large">here</a></p>
+<h3>Easy EDA(easyeda.com)</h3>
+<p align=justify> Easy EDA the name itself tells its easy and the desging part of schematics is very easy but the pcb traceing the route is abit confusing the backend packages are not looking as selected </p>
+  <img src="img/w6/easyeda.png" width=550 border=1>
+</p>
+<h3>KiCad<h3>
+<p>
+KiCad is an open source software suite for Electronic Design Automation (EDA). The programs handle Schematic Capture, and PCB Layout with Gerber output. The suite runs on Windows, Linux and OS X. I understood that this could be possible alternate for EAGLE, and I would really like to try out KiCad very soon.</p>
+i am also going to try the other softwares soon
+</div>
+		<div id="b4" class="tab-pane fade">
+			<h2>Fab Modules</h2>
+<h3>Compiled fabmodules Vs fabmoules.org Vs mods.cba.mit.edu</h3>
+<p>There was a huge confusion while installing mods on my PC to findout latest version of the mods</p>
+<strong><h3>Compiled fabmodules installation process</h3></strong>
+<p align="justify">The compiled fab modules are the modules which we are using since we started our course in the lab ,but now i have installed them to my pc using the documentation ,but it was little confusing because some broken links
+  i have followed the process written <a href="http://kokompe.cba.mit.edu/downloads.html"class="w3-btn w3-purple w3-round-large">here</a> and <a href="http://kokompe.cba.mit.edu/fab_src.zip"class="w3-btn w3-purple w3-round-large">Download Fab SRC .zip</a>
+<h3>Dependencies: Ubuntu 16.04 LTS</h3>
+           <a href="http://www.python.org/">Python</a><br>
+           <a href="http://www.wxpython.org/">wxPython</a><br>
+           <a href="http://www.numpy.org/">NumPy</a><br>
+           <a href="http://gcc.gnu.org/">GCC and G++</a><br>
+           <a href="http://www.libpng.org/pub/png/libpng.html">libpng</a><br>
+           <a href="http://giflib.sourceforge.net/">GIFLIB</a><br>
+           <a href="http://www.gnu.org/software/make/">Make</a><br>
+           <a href="http://www.gnu.org/software/bash/">BASH</a><br>
+           <a href="http://okular.kde.org/">Okular</a><br>
+           <a href="http://www.boost.org/">Boost</a> (headers, thread, and system library)<br>
+           <a href="http://www.cmake.org/">cmake</a><br>
+have to install all the dependencies ,simple way to install all the dependencies in single streach is <code>sudo apt-get install python python-dev python-pip gcc g++ libpng12-dev libgif-dev make bash okular libboost-thread-dev libboost-system-dev cmake</code>
+but the installation being terminated due to not availablity of apt repo of python-wxgtk2.8 ,i removed it from the code of installtion i couldn't able to find how to install the latest python-wxgtk and manulally downloaded the latest version of <strong>wxWidgets3.1.0</strong> <a href="https://www.wxwidgets.org/downloads/"class="w3-btn w3-purple w3-round-large">here</a>
+then all dependencies set now finally i extracted the fab_src.zip which i have downloaded early and followed the commands present <a href="http://beachlab.org/fab2016/fabmodules.html"class="w3-btn w3-purple w3-round-large">here</a>in beachlab documentation.
+  </p>
+  <code>$ make clean</code><br>
+  <code>$ sudo make fab</code><br>
+  <code>$ sudo make install # recommended and needed for kokopelli retro</code><br>
+<div class="alert alert-info" role="alert">
+<p>As per the notes of the fab guru Frank ,he mentioned "There are a number of reasons why you still want to keep the legacy compiled version of fab modules along with the newer web/JavaScript version. The main one is that the JavaScript version still does not allow to send straight away to the machine so you still need fabsend that comes with the compiled version. The second one is that you have a fall-back in case of failure. A third one is that clearance (a feature you need when milling molds) is not supported in the JavaScript version. And the final one is that you need to have it if you want to run kokopelli retro."</p></div>
+
+<p> This is the way i have installed the compiled version of the fabmodules and for running we just have to type <code>$ fab</code></p>
+
+<strong><h3>Web Version fabmodules Local installation process</h3></strong>
+<p align=justify> I remember once my friend ajith kumar was questioned by Prof.neil why you people are still using the compiled fab modules so i have decided to install the local version of the fabmodules to have hassle free milling process
+  <code> Note : I have tried to work with the fabmodules.org online version of the same i have broken a 1/64 bit while trying to mill, when i have given the move command it should liftup and move but it moves straight away from the point</code>, then i decided to give a try to the locally installed web fabmodules at my own risk , i have sucessfully able to mill my board using this i will explain the process of the installation and milling below</p>
+
+  <p align=justify> Now just we have to go to the github location of the fabmodules <a href="https://github.com/FabModules/fabmodules-html5/wiki/How-to-install"class="w3-btn w3-purple w3-round-large">here</a> in that wiki there is detailed explaination i follow it and have installed on my pc
+    <h3>Pre Requisities</h3>
+    There are some pre-requisites
+
+<li>git <code>$ apt-get install git</code></li>
+
+<li>wget <code>$ apt-get install wget </code></li>
+
+<li>node.js & npm (download from nodejs.org and follow instructions there) <code>$ apt-get install nodejs-legacy npm</code></li>
+
+<li>Python (already installed)<code> $ sudo apt-get install python</code></li>
+
+<li>PySerial library.<code>$ sudo pip install pyserial</code></li>
+
+<li>Python TKinter <code> $ sudo apt-get install python-t</code> </li>
+Once all the pre requisities installed we can choose the directory where we want to install the latest version of the offline web version of the fab modules in my case i am doing in home directory
+<code> $ cd /home/<br>
+git clone https://github.com/FabModules/fabmodules-html5.git<br>
+cd fabmodules-html5<br>
+npm install</code><br>
+Now just use the <code> $ npm start</code>
+listening for connections from 127.0.0.1 on 12345... (this kind of output you will be seeing)
+<img src="img/w6/f1.png" width=550 border=1></center>
+<p>
+now we can change the host and port inside the mod_server.js file, look at the top the two lines:
+var server_port = '8000'<br>
+var client_address = '127.0.0.1'<br></p>
+<center><img src="img/w6/f3.png" width=550 border=1></center></p>
+<p> Now we just to type the localhost:8000 in our brower to acess the fabmodules</p>
+<center>  <img src="img/w6/a0.png" width=550 border=1>
+<p>This how our locally installed fab modules look</p></center>
+<center>  <img src="img/w6/a.png" width=550 border=1>
+<p>Now we selected the png image required to mill the board</p></center>
+<center>  <img src="img/w6/d.png" width=550 border=1>
+<p>Now we have to se all the parameters of the milling traces and click claculate</p></center>
+<center>  <img src="img/w6/e.png" width=550 border=1>
+<p>Now with all tension i have clicked the send button it started the milling</p></center>
+<p align=justify> But all of sudden the machine stopped working and came to view mode and the view mode LED is blinking , i thought something wrong check the cable connectivity and status i wasted around 1hr to debug the fault the actual fault is the feedback button which is being near cover ,as our seniors missed the steel pin they made a pin using 3d printer which is stuck with tape is loose and due to vibrations it has behaved like that , i thought it was problem of fabmodules , once i solved it i have resumed my milling</p>
+<center>  <img src="img/w6/p1.jpg" width=550 border=1>
+<p>Due to vibrations it was coming out and the feedback says its door opened while progress that made it pasue the process </p></center>
+<center>  <img src="img/w6/m1.jpg" width=350 border=1><img src="img/w6/m2.jpg" width=350 border=1>
+<p>Milling Process live image when it pasued the milling</p></center>
+<center>  <img src="img/w6/f.png" width=550 border=1>
+<p>The milling was half the way</p></center>
+<center>  <img src="img/w6/h.png" width=550 border=1>
+<p>The milling of traces is almost done</p></center>
+<p align=justify> the milling the traces is done and Now we have to change the bit and also reload the web modules to use the 1/32bit for the cutting the board as per the requirement ,but unfortunately i was unable to see the loaded file , after debugging the line width should be around 0.032 i had changed then finally able to load the cutting path </p>
+<center>  <img src="img/w6/i.png" width=300 border=1><img src="img/w6/i_1.png" width=300 border=1>
+<p>Board Cutting path sent and the (right) cutting is almost done</p></center>
+<center>  <img src="img/w6/mo.jpg" width=550 border=1>
+<p>The Final Output of the milling</p></center>
+
+<strong><h3>mods.cba.mit.edu</h3></strong>
+<p align=justify> I have loaded this web page http://mods.cba.mit.edu but i was unable to comunicate with the machine i thought if i could install this similar to the mod local web vesion and i have searched for this but unable to find any documentation then mailed the class saying is there any way to find out to install them locally no reply came ,i also got a reply  not to send these kind of mails to class from Prof.Neil, immidately my instructors asked me why did you send a mail without asking us ,i told them sorry as i preassumed that they are not intrestred to use the online version of mod ,then after a discussion on this topic was done in the telegram group and our kochi lab instructor has explained clearly then i got to understand that mods can't be installed locally as of now and also it doesn't support the DSRDTR protocol which is being used by the roland modella MDX-20,also tried to change the script in the background to enable the other flow conrol which is not active still it says can't open the ports
+Then finally i have decided to look at this after some days if any improvement comes or i am planning to make modela to communicate on the RTSCTS flow control once i am done i will update the documentation in future</p>
+<center>  <img src="img/w6/mods1.png" width=550 border=1>
+<p>Screen Shot of the mods.cba.mit.edu</p></center>
+<h3> Conclusion</h3>
+<li>I have have installed the fabmodules complied version on my PC  </li>
+<li><code> Never use the fabmodules.org online version of fabmodules you will definately break the bit and that performs uneven and behaving irratically </code> </li>
+<li>the locally installed fabmodules online version is working perfect </li>
+
+<li>Using the mods.cba.mit.edu was excited and had great discussion with my mentors</li>
+
+<li>mods.cba.mit.edu is still underdevelopment i guess there no proper documentation and flow control is not working </li>
+		</div>
+    <div id="b5" class="tab-pane fade">
+			<h2> Components and Soldering</h2>
+      <h3>Components</h3>
+      <p align="justify">
+        <div class="card">
+  											<ul class="list-group list-group-flush">
+    										<li class="list-group-item">1. ATtiny44-SSU</li>
+    										<li class="list-group-item">2. 20mhz resonator</li>
+    										<li class="list-group-item">3. Resistor-10K</li>
+                        <li class="list-group-item">3. Resistor-499</li>
+                        <li class="list-group-item">3. Resistor-100</li>
+												<li class="list-group-item">4. Capacitor-1uF</li>
+												<li class="list-group-item">5. AVR ISP Header SMD</li>
+												<li class="list-group-item">6. FTDI Header</li>
+												<li class="list-group-item">7. Red LED</li>
+	                       <li class="list-group-item">8.  Green LED</li>
+  									</ul>
+										</div>
+  </p>
+<p align=justify><strong> ATtiny44-SSU:</strong> It is a Atmel AVR family microcontroller ,It is 'all in one', the processor, ram, IO all on the one chip, as such you cannot (say) increase the amount of RAM available or the number of IO ports. The controlling bus is internal and not available to the board designer.This means that a microprocessor is generally capable of being built into bigger general purpose applications than a microcontroller. The microcontroller is usually used for more dedicated applications.
+  Know more about <a href="https://ccrma.stanford.edu/wiki/Microcontroller_Architecture"class="w3-btn w3-purple w3-round-large" >Microcontroller Architecture</a>.<br> <a href="http://www.mouser.in/ProductDetail/Atmel/ATTINY44A-SSU/?qs=MCbhYIqTEtk5HLLipQHdcw%3D%3D"class="w3-btn w3-purple w3-round-large"> Datasheet for ATTINY44A-SSU-ND</a></p>
+<p align=justify><strong> Resonator (20Mhz):</strong>A ceramic resonator is an electronic component consisting of a piece of a piezoelectric ceramic material with two or more metal electrodes attached. When connected in an electronic oscillator circuit, resonant mechanical vibrations in the device generate an oscillating signal of a specific frequency. Like the similar quartz crystal, they are used in oscillators for purposes such as generating the clock signal used to control timing in computers and other digital logic devices.
+
+Ceramic resonators are made of high-stability piezoelectric ceramics, generally lead zirconium titanate (PZT) which functions as a mechanical resonator. In operation, mechanical vibrations induce an oscillating voltage in the attached electrodes due to the piezoelectricity of the material. The thickness of the ceramic substrate determines the resonant frequency of the device</p>
+<p align=justify><strong> Capacitor:</strong>A ceramic capacitor is a fixed-value capacitor in which ceramic material acts as the dielectric. It is constructed of two or more alternating layers of ceramic and a metal layer acting as the electrodes. The composition of the ceramic material defines the electrical behavior and therefore applications. Ceramic capacitors are divided into two application classes:
+
+    Class 1 ceramic capacitors offer high stability and low losses for resonant circuit applications.<br>
+    Class 2 ceramic capacitors offer high volumetric efficiency for buffer, by-pass, and coupling applications.<br>
+
+Ceramic capacitors, especially the multilayer style (MLCC), are the most produced and used capacitors in electronic equipment that incorporate approximately one trillion (10^12) pieces per year.</p>
+<p align=justify><strong> LED:</strong>A light-emitting diode (LED) is a two-lead semiconductor light source. It is a p–n junction diode, which emits light when activated. When a suitable voltage is applied to the leads, electrons are able to recombine with electron holes within the device, releasing energy in the form of photons. This effect is called electroluminescence, and the color of the light (corresponding to the energy of the photon) is determined by the energy band gap of the semiconductor. LEDs are typically small (less than 1 mmsq ) and integrated optical components may be used to shape the radiation pattern</p>
+<p align=justify><strong> Resistors:</strong>A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines, among other uses.</p>
+<p align=justify><strong> AVR and FTDI Headers:</strong>These are the connector male pins which are used to connect external devices to the connected board</p>
+<p align=justify><strong> Copper Clad Board:</strong> PCB Substrates are specialized materials that do not conduct electric currents. They serve as a laminated electrical insulator between circuitry,An electrical insulator is a material whose internal Electric charge do not flow freely, and which therefore does not conduct an under the influence of an each layer of circuitry, consequently, is connected through plated through holes to connect traces on opposite layers.FR-1 is a hard, flat material that consists of a thin layer of copper over a non-conductive phenolic paper copper-clad. FR-1 is primarily used for making circuit boards. The thin copper layer can be milled or etched away, leaving traces to which electronic components can be soldered. Substrates requires electrical,mechanical,and thermal properties</p>
+<h3>Claculating the value of the current limiting Resistor for LED<h3>
+  <p align=justify>
+    To find out the resistor required for the Green LED ,as current limiting resistor ,first we have to check with the <a href="http://optoelectronics.liteon.com/upload/download/DS22-2000-176/S_110_LTST-C230TBKT.pdf">datasheet</a>
+and find out the DC forword voltage and forword current, and i found it as:</p>
+<p>LED DC Forword Voltage = 2.8V</p>
+<p>LED DC Forword current = 20mA</p>
+<p> Resistor value for the <a href="http://optoelectronics.liteon.com/upload/download/DS22-2000-176/S_110_LTST-C230TBKT.pdf">Blue LED</a> can be calculated</p>
+
+<code><span class="comment">R = (Vs - Vf) / Ifc</span>
+<span class="comment">=> R = (5V - 2.8V) / 0.02A  </span>
+<span class="comment">=> R = 110 Ohm </span></code>
+
+<p> Resistor value for the <a href="http://optoelectronics.liteon.com/upload/download/DS-22-98-0002/S_110_LTST-C150CKT.pdf"> Red LED</a> can be calculated(for Battery mode indication)</p>
+<p>LED DC Forword Voltage = 1.8V</p>
+<p> LED DC Forword current = 20mA</p>
+<code><span class="comment">R = (Vs - Vf) / Ifc</span>
+<span class="comment">=> R = (5V - 1.8V) / 0.02A  </span>
+<span class="comment">=> R = 160 Ohm </span></code>
+
+<p align="justify">In our lab we have standard values are available like 10, 100,49.9,499 etc, So i selected 100 Ohm and 499Ohm for the LED's</p>
+<h3>Soldering</h3>
+<p align="justify"> Now after getting the all components Required i have started soldering as the practice in the electronics production week helped alot to solder the SMD Components
+  <center><img src="img/w6/c1.jpg" width=650 border=1></center>
+  <center><img src="img/w6/solder.jpg" width=650 border=1></center>
+<center>  <img src="img/w6/finsol.jpg" width=650 border=1></center>
+<p>Thus Finally i have Soldered the required board now i have run fastly to Programming the Board</p>
+</div>
+<div id="b6" class="tab-pane fade">
+  <h2>Programming and simulation</h2>
+  <h3> Programming Echo Hello World Board</h3>
+  <p align="justify">
+    Now i have sucessfully made the board ,it's time to program to check the board is working or not ,now i have downloaded the <a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c">hello.ftdi.44.echo.c</a> amd <a href="http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c.make">hello.ftdi.44.echo.c.make</a> from the lecture page <a href="http://academy.cba.mit.edu/classes/embedded_programming/">here</a>
+    Now we have renamed the <code>hello.ftdi.44.echo.c.make</code> to <code>Makefile</code> and then later opened the terminal and move to the path where the files saved and type <code>$ make</code> this will generate the .hex file and .out file now we have to type this in terminal to set fuses connecting the board to isp programmer and connect isp to PC<code>$ make program-usbtiny-fuses</code>
+</p>
+<center>  <img src="img/w6/fss.png" width=650 border=1></center>
+<p> Then we have to type
+<code>$ make program-usbtiny </code> for programming the board once the board is programmed and we will connect the board with the FTDI Connector to check whether the board is working or not</p>
+<center>  <img src="img/w6/fp.png" width=650 border=1></center>
+<p> once done we will install a program called cutecom <code>$ sudo apt-get install cutecom</code> we are able to see the ouput what we type char by char</p>
+<center>  <img src="img/w6/cute.png" width=650 border=1></center>
+<h3>Installing arduino bootloader and programming with Arduino IDE<h3>
+<p align=justify> We have searched for the arduino pin outs for the ATTiny 44 and we found the detailed picture </p>
+    <img src="img/w6/ATtiny44-84.png" width=550 border=1>
+    <p>Using it we were able to program the ATTiny 44 the process will be updated shortly</p>
+<h3> Simulating the Echo Hello World Board</h3>
+<p align="justify"> We have used the proteus software for the simulation of the board and i was able to generate the output </p>
+</p>
+
+</div>
+
+    <div id="b7" class="tab-pane fade">
+			<h2>Hero Shot</h2>
+			<p>Now here we comes to the Hero Shot of the Hello Echo Board</p>
+<center><img src="img/w6/hs.jpg" alt="Hero Shot" width=600 ></center>
+<p align=center>
+<i>Finally my Electronics Design Week Completed</i>
+</p>
+<h3> Conclusion</h3>
+<li>I have had fun while Designing the PCB Using Multiple Softwares  </li>
+<li>I am able to simulate the Electronics boards Designed</li>
+<li>Using the mods.cba.mit.edu was excited and had great discussion with my mentors</li>
+<li>Understand how the design rule check works and the manual Routing Vs Auto Routing </li>
+<li>It is necessary to learn how to debug the Circuits </li>
+    </div>
+	</div>
+</div>
+</div>
+    <!-- Footer -->
+<div id="footer">
+
+</div>
+<footer class="footer-distributed">
+
+
+
+<div class="footer-right">
+
+<a href="https://www.facebook.com/scitechindian"><i class="fa fa-facebook"></i></a>
+<a href="https://twitter.com/scitechindian"><i class="fa fa-twitter"></i></a>
+<a href="https://in.linkedin.com/in/scitechindian"><i class="fa fa-linkedin"></i></a>
+<a href="https://github.com/scitechindian"><i class="fa fa-github"></i></a>
+
+</div>
+
+
+<div class="footer-left">
+
+<p class="footer-links">
+<a href="index.html">Home</a>
+·
+<a href="assignments.html">Weekly Assignments</a>
+·
+<a href="project.html">Final Project</a>
+·
+<a href="about.html">About me</a>
+.<a href="http://www.fablabkerala.in"> Fablab Kerala</a>
+.<a href="http://archive.fabacademy.org/archives/2017/fablabtrivandrum/">Fab Academy
+</a>
+</p>
+<p>My Fab Diary, 2017</p>
+</div>
+
+</div>
+</footer>
+
+                                 <div class="container">
+                 <center><p> &copy; 2017, made with <i class="fa fa-heart heart"></i> by scitechindian </p></center>
+                    </div>
+         
+<center><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /></center>
+       <center> <p><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This work done</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://archive.fabacademy.org/archives/2017/fablabtrivandrum/students/213" property="cc:attributionName" rel="cc:attributionURL">SYED JUNAID AHMED</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p></center>
+
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script> 
+      <!-- jQuery -->
+      <script src="js/jquery/jquery.min.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap/js/bootstrap.min.js"></script>
+      <!-- Plugin JavaScript -->
+      <script src="js/jquery/jquery-easing.min.js"></script>
+      <!-- Theme JavaScript -->
+      <script src="js/creative.min.js"></script>
+</body>
+
+</html>
